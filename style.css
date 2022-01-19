@@ -1,0 +1,48 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+   }
+
+   #iphone {
+    background-color: #c1ccff;
+    font-size: 30px;
+   }
+    #watch {
+        background-color:rgb(210, 202, 255);
+    }     
+    #ipad{
+        background-color: rgb(199, 239, 255);
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(146, 211, 255);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(93, 90, 231);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(53, 90, 192);
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:rgb(0, 0, 0) ;
+        color: rgb(255, 255, 255);
+        text-align: center;
+     }
